@@ -27,7 +27,9 @@
   .section-container {
     display: block;
   }
-  .arrow {
+  .arrow,
+  .arrow2,
+  arrow3 {
     display: none;
   }
   section,
@@ -50,7 +52,7 @@
 @media screen and (max-width: 600px) {
   #contact,
   footer {
-    height: 40vh;
+    height: 50vh;
   }
   #profile {
     height: 83vh;
