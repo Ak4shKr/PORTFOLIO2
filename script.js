@@ -4,3 +4,6 @@ function toggleMenu() {
   menu.classList.toggle("open");
   icon.classList.toggle("open");
 }
+// function changeBackgroundColor(color) {
+//   document.body.style.backgroundColor = color;
+// }

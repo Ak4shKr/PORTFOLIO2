@@ -1,4 +1,4 @@
-@media screen and (max-width: 1400px) {
+@media screen and (min-width: 1201px) {
   #profile {
     height: 83vh;
     margin-bottom: 6rem;
@@ -10,11 +10,17 @@
   #projects {
     height: fit-content;
   }
+  .logo {
+    font-size: 1.5rem;
+  }
 }
 
 @media screen and (max-width: 1200px) {
   #desktop-nav {
     display: none;
+  }
+  .logo {
+    font-size: 1.5rem;
   }
   #hamburger-nav {
     display: flex;
@@ -101,5 +107,8 @@
   }
   .text-container {
     text-align: justify;
+  }
+  #contact {
+    margin-top: 30px;
   }
 }
