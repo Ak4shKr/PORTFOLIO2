@@ -54,10 +54,11 @@ a {
 }
 
 a:hover {
-  color: grey;
+  color: rgb(32, 82, 210);
   text-decoration: underline;
   text-underline-offset: 1rem;
-  text-decoration-color: rgb(181, 181, 181);
+  text-decoration-color: rgba(120, 109, 123, 0.825);
+  font-weight: 400;
 }
 
 .logo {
